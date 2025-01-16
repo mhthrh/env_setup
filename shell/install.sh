@@ -38,6 +38,6 @@ for pkg in "${packages[@]}"; do
     checkPackage "${pkg}"
       if [  "$?" -eq 1 ]; then
         echo -e "\e[31m ${pkg} is not installed. Installing...\e[0m"
-          sudo apt install -y "${pkg}"
+          apt install -y "${pkg}"
       fi
 done
