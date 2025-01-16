@@ -17,7 +17,7 @@
 2. **Clone the Repository**  
    Use the following command to clone the repository:
    ```bash
-   git clone https://github.com/xxxxx/xxxxx.git
+   git clone https://github.com/mhthrh/initEnv.git
 
 
 
@@ -45,3 +45,10 @@ These aliases will make your workflow more efficient by providing shortcuts for 
 1. Make the scripts executable:
    ```bash
    chmod +x install.sh clone.sh alias.sh
+
+
+./install.sh
+
+./clone.sh
+
+source ./alias.sh
