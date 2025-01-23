@@ -8,6 +8,7 @@ alias mkdir="mkdir -pv"
 alias mv="mv -i"
 alias cp="cp -i"
 alias rm="rm -i"
+alias file-manager="xdg-open"
 
 # System and Package Management
 alias update="sudo apt update && sudo apt upgrade -y"
